@@ -1,6 +1,6 @@
 package Observer;
 
-public class Main {
+public class MainObserver {
     public static void main(String[] args) {
         Sujeto sujeto = new Sujeto();
         new ObservadorUno(sujeto);
